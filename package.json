@@ -1,0 +1,30 @@
+{
+    "name": "codevibe",
+    "displayName": "CodeVibe",
+    "description": "Voice-to-code IDE for non-developers",
+    "version": "0.0.1",
+    "engines": {
+      "vscode": "^1.70.0"
+    },
+    "activationEvents": [
+      "onCommand:codevibe.startVoice"
+    ],
+    "main": "./src/extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "codevibe.startVoice",
+          "title": "Start Voice Coding"
+        }
+      ]
+    },
+    "dependencies": {
+      "node-fetch": "^2.6.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/your-username/codevibe"
+    }
+
+  }
+  
